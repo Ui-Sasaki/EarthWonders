@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earth Wonders</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cur"></div>
+  <div class="trail" id="tr1"></div>
+  <div class="trail trail2" id="tr2"></div>
+
+  <nav id="mainNav">
+    <div class="nav-logo">Earth Wonders</div>
+    <ul class="nav-links">
+      <li><a href="#hero">HOME</a></li>
+      <li><a href="#whatis">顕微鏡</a></li>
+      <li><a href="#whatis">日本の伝統</a></li>
+      <li><a href="#achievements">NEWS</a></li>
+      <li><a href="#canvas3d">ABOUT US</a></li>
+      <li><a href="#register">MEMBERS</a></li>
+      <li><a href="#register" class="nav-reg">登録</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="slide active">
+      <img src="images/slide1.jpg" alt="Nature slide 1">
+    </div>
+    <div class="slide">
+      <img src="images/slide2.png" alt="Nature slide 2">
+    </div>
+    <div class="slide">
+      <img src="images/slide3.jpg" alt="Nature slide 3">
+    </div>
+    <div class="slide">
+      <img src="images/slide4.jpg" alt="Nature slide 4">
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">🌍 NATURE SCIENCE CLUB</div>
+      <h1 class="hero-title"><span class="big-e">E</span>arth<br><span class="big-w">W</span>onders</h1>
+      <p class="hero-sub">自然の驚異を、みんなで発見しよう！</p>
+    </div>
+
+    <div class="slide-dots">
+      <div class="dot active" data-i="0"></div>
+      <div class="dot" data-i="1"></div>
+      <div class="dot" data-i="2"></div>
+      <div class="dot" data-i="3"></div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-arrow">↓</div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <section id="whatis">
+    <div class="whatis-inner">
+      <div class="reveal">
+        <span class="whatis-tag">ABOUT</span>
+        <h2 class="whatis-heading">Earth Wonders<br><span class="accent">とは？</span></h2>
+        <p class="whatis-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <p class="whatis-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident deserunt.</p>
+        <p class="whatis-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-row">
+    <div class="stat-item reveal" style="transition-delay:.12s">
+      <div class="stat-emoji">👧</div>
+      <div class="stat-num" data-target="123">0</div>
+      <div class="stat-label">メンバー</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.24s">
+      <div class="stat-emoji">🎉</div>
+      <div class="stat-num" data-target="18">0</div>
+      <div class="stat-label">イベント</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.36s">
+      <div class="stat-emoji">⭐</div>
+      <div class="stat-num" data-target="0.1">0</div>
+      <div class="stat-label">年間活動</div>
+    </div>
+  </div>
+
+<section id="achievements">
+  <p class="section-eyebrow reveal">活動記録</p>
+  <h2 class="section-title reveal">主な<span class="jp">コラボ実績</span></h2>
+
+  <div class="collab-list">
+
+    <div class="collab-row reveal">
+      <div class="collab-card">
+        <span class="card-ribbon">COLLAB</span>
+        <h3 class="card-title">博報堂コラボ</h3>
+        <p class="card-text">
+          大手広告代理店・博報堂と連携し、自然教育プログラムの企画・発信を実施。
+          子どもたちに向けた新しい学びの形を共同で創り上げました。
+        </p>
+        <div class="card-num-bg">01</div>
+      </div>
+
+      <div class="collab-image-wrap">
+        <img src="images/slide1.jpg" alt="博報堂コラボの写真" class="collab-image">
+      </div>
+    </div>
+
+    <div class="collab-row reveal" style="transition-delay:.1s">
+      <div class="collab-card">
+        <span class="card-ribbon">COLLAB</span>
+        <h3 class="card-title">TBS ミツバチプロジェクトコラボ</h3>
+        <p class="card-text">
+          TBSの環境プロジェクトと協働し、都市における生態系とミツバチの役割について学ぶ活動を展開。
+          持続可能な社会への理解を深める機会を提供しました。
+        </p>
+        <div class="card-num-bg">02</div>
+      </div>
+
+      <div class="collab-image-wrap">
+        <img src="images/slide2.png" alt="TBSミツバチプロジェクトコラボの写真" class="collab-image">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="register">
+        <h2 class="join-title reveal">いっしょに探検しよう！</h2>
+    <p class="join-sub reveal">Earth Wondersのメンバーになって、<br>自然のふしぎを発見しよう 🌍</p>
+    <a href="#" class="join-btn reveal">登録する ✨</a>
+  </section>
+
+  <footer id="about">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>Earth Wonders</h3>
+        <p>自然の驚異を探求し、次世代へ伝えることをミッションとする自然科学コミュニティー！</p>
+      </div>
+
+      <div class="footer-col" id="members">
+        <h4>ナビ</h4>
+        <ul>
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#whatis">顕微鏡</a></li>
+          <li><a href="#whatis">日本の伝統</a></li>
+          <li><a href="#achievements">NEWS</a></li>
+          <li><a href="#members">MEMBERS</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>つながろう！↓</h4>
+        <ul>
+          <li><a href="#register">登録する</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Earth Wonders. All rights reserved.</span>
+      <span>自然と共に、未来へ 🌱</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
